@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: Mark Huang
+subtitle: Share my learning curve line.
+description: Mark Huang blog
 keywords:
-author: John Doe
-language:
+author: Mark Huang
+language: en
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: suka
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,14 @@ deploy:
   type: git
   repo: git@github.com:YenLung-Huang/YenLung-Huang.github.io.git
   branch: master
+
+# Suka theme settings
+suka_theme:
+  search:
+    enable: true
+    path: search.json
+    field: post # Page | Post | All. Default post
+  prism:
+    enable: false
+    line_number: true
+    theme: default

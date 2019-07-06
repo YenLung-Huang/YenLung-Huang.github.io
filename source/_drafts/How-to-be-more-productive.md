@@ -1,8 +1,10 @@
 ---
-title: Hello World
+title: How to be more productive.
+date: 2019-07-01
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+I had try to write my blog for recording my learning curve since 2017 I started my software programing job. Because some reason and self inconfident. And share
 
+![sky](https://cdn.pixabay.com/photo/2019/06/04/21/53/airplane-4252410_960_720.jpg)
 ## Quick Start
 
 ### Create a new post
