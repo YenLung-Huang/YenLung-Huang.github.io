@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: suka
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -86,10 +86,12 @@ deploy:
 theme_config:
   colorscheme: white
 
-nav:
-  Home: /
-  About: /about/
-  Writing: /archives/
-  Projects: http://github.com/probberechts
-  LINK_NAME: URL
-
+suka_theme:
+  search:
+    enable: true
+    path: search.json
+    field: post # Page | Post | All. Default post
+  prism:
+    enable: false
+    line_number: true
+    theme: default
