@@ -1,5 +1,5 @@
 ---
-title: Valet on windows
+title: 在 Windows 上面安裝 Valet
 date: 2019-07-20 21:43:41
 tags:
 - php
@@ -11,6 +11,7 @@ tags:
 ## 前言
 過去使用 Homestead 開發 Laravel 專案總是驚嘆 Laravel 社群提供的自動化開發環境建置非常的強大，讓 php 開發人員不太需要花很多的時間去學習，不過冗長的啟動過程，有時候只是想快速的測試一些新的東西時，都會感覺一種很窒息的感覺，覺得很笨重，只是想快速了解一些語法開發方式，結果，整個vagrant up 的部署過程，讓人覺得像是揹著老太太走路，又臭又長。
 這時候想到 Laravel 官網有介紹到 Valet 基於 mac 的開發
+
 ## 事前準備工作
 
 ### 以 chocolatey 安裝
@@ -71,3 +72,6 @@ echo 'hello world' >> index.html
 # 建立連結
 valet link project
 ```
+
+## 參考資源
+[https://kazumi.blog/how-to-use-valet-to-build-laravel-testing-env-easily-cn.html](https://kazumi.blog/how-to-use-valet-to-build-laravel-testing-env-easily-cn.html)
