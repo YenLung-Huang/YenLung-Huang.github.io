@@ -19,7 +19,7 @@ cache:
 #在构建之前安装hexo环境
 before_install:
   - npm install -g hexo-cli
-  - git clone https://github.com/smduan/next.git themes/next
+  - git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 #安装git插件和搜索功能插件
 install:
