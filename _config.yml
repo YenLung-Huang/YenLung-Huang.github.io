@@ -81,5 +81,5 @@ deploy:
   type: git
   #repo: git@github.com:Michael728/michael728.github.io.git
   #下方的gh_token会被.travis.yml中sed命令替换
-  repo: https://github_token@github.com:YenLung-Huang/YenLung-Huang.github.io.git
+  repo: https://github_token@github.com/YenLung-Huang/YenLung-Huang.github.io.git
   branch: master
