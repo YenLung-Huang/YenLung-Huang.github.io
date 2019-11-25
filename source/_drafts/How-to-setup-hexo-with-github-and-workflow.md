@@ -1,5 +1,5 @@
 ---
-title: How to setup hexo with github and workglow
+title: How to setup hexo with github and workflow
 date: 2019-07-21 20:55:30
 tags:
 - hexo

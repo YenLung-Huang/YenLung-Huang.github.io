@@ -1,0 +1,1 @@
+https://io-oi.me/tech/hexo-next-optimization/#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-emoji

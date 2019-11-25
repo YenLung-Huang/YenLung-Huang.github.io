@@ -8,7 +8,7 @@ subtitle: Share my learning curve line.
 description: Mark Huang blog
 keywords:
 author: Mark Huang
-language: en
+language: zh-TW
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: suka
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,17 +81,3 @@ deploy:
   type: git
   repo: git@github.com:YenLung-Huang/YenLung-Huang.github.io.git
   branch: master
-
-# cactus config.yml
-theme_config:
-  colorscheme: white
-
-suka_theme:
-  search:
-    enable: true
-    path: search.json
-    field: post # Page | Post | All. Default post
-  prism:
-    enable: false
-    line_number: true
-    theme: default
