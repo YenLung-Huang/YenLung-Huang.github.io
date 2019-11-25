@@ -27,8 +27,8 @@ install:
 
   # 设置git提交名，邮箱；替换真实token到_config.yml文件
 before_script:
-  - git config user.name "Mark Huang"
-  - git config user.email "ylhuang947@gmail.com"
+  - git config --global user.name "Mark Huang"
+  - git config --global user.email "ylhuang947@gmail.com"
   # 替换同目录下的_config.yml文件中github_token字符串为travis后台刚才配置的变量，注>意此处sed命令用了双引号。单引号无效！
   - sed -i "s/github_token/${GITHUB_TOKEN}/g" _config.yml || exit 1
 
