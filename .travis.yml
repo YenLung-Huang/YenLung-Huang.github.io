@@ -1,5 +1,5 @@
 language: node_js
-node_js: stable
+node_js: 13
 
 env:
  global:
@@ -20,7 +20,7 @@ cache:
 before_install:
   - npm install -g hexo-cli
   - git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
-  - cp source/_config/ayer/_config.yml. themes/ayer/_config.yml
+  - cp source/_config/ayer/_config.yml themes/ayer/_config.yml
 
 #安装git插件和搜索功能插件
 install:
