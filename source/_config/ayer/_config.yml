@@ -91,6 +91,8 @@ search:
   format: html
 
 # RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)
+rss: /atom.xml
+
 feed: 
     type: atom
     path: atom.xml
