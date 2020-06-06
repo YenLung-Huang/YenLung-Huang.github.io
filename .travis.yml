@@ -19,8 +19,8 @@ cache:
 #在构建之前安装hexo环境
 before_install:
   - npm install -g hexo-cli
-  - git clone https://github.com/theme-next/hexo-theme-next themes/next
-  - cp source/_config/_config.yml.bak themes/next/_config.yml
+  - git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
+  - cp source/_config/ayer/_config.yml. themes/ayer/_config.yml
 
 #安装git插件和搜索功能插件
 install:

@@ -4,12 +4,12 @@
 
 # Site
 title: Mark Huang
-subtitle: Share my learning curve line.
-description: Mark Huang blog
-keywords:
+subtitle: Tech Note.
+description: Mark Huang personal tech blog
+keywords: tech, blog, programmer, dreamer
 author: Mark Huang
-language: zh-TW
-timezone:
+language: en
+timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
