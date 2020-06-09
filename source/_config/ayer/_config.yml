@@ -1,10 +1,10 @@
 # 侧边栏菜单
 menu:
-  Home: /
-  Archives: /archives
-  Categories: /categories
-  Tags: /tags
-  About: /about
+  首頁: /
+  彙整: /archives
+  分類: /categories
+  標籤: /tags
+  關於: /about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
