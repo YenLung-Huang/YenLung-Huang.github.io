@@ -22,3 +22,5 @@ ctrl+S to forward search (works in zsh for me but not bash)
 ctrl+F to move forward by a char
 ctrl+B to move backward by a char
 ctrl+W to remove the word backwards from cursor position
+
+ctrl+- go back to previous
