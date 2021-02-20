@@ -1,6 +1,5 @@
 ---
 title: Custom filter
-date: 2019-08-02 21:00:54
 date: 2021-02-19 14:24:21
 tags:
  - crm
