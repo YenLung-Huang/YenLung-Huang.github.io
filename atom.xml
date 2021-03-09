@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mark Huang</title>
+  
+  <subtitle>Tech Note.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2021-03-09T06:02:49.085Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Mark Huang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SuiteCRM short trip</title>
+    <link href="http://yoursite.com/2021/02/19/suitecrm-short-trip/"/>
+    <id>http://yoursite.com/2021/02/19/suitecrm-short-trip/</id>
+    <published>2021-02-19T06:24:21.000Z</published>
+    <updated>2021-03-09T06:02:49.085Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Setup-SuiteCRM-7-11-18"><a href="#Setup-SuiteCRM-7-11-18" class="headerlink" title="Setup SuiteCRM 7.11.18"></a>Setup SuiteCRM 7.11.18</h2><p>For some reason, I started coding with SuiteCRM at least half of year.<br>Now, I will stop work with it because we lose our marketing team. No one will use it at all.<br>But I still want to write something for what I learn from it, and give this framework a thumb up.</p><h2 id="History"><a href="#History" class="headerlink" title="History"></a>History</h2><p>SuiteCRM is a fork from sugarcrm 6. What we uesd version is 7.11.18 community version.</p><p>Since it forked from sugarcrm 6. It had been change a lot. A new team give it a nice integration with third party.</p><h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul><li>V8 Api</li><li>Robo</li></ul><p>I like the idea they did. Becasue we used ci/cd a lot. This give the application more flexible.</p><h2 id="Future"><a href="#Future" class="headerlink" title="Future"></a>Future</h2><p>I had seen the team announce they will announce the SuiteCRM 8 at the end of 2020. But until I write this I still not see it.</p><h2 id="Suggested-Blogs"><a href="#Suggested-Blogs" class="headerlink" title="Suggested Blogs"></a>Suggested Blogs</h2><p><a href="https://pgorod.github.io/" target="_blank" rel="noopener">https://pgorod.github.io/</a><br><a href="http://www.jsmackin.co.uk/" target="_blank" rel="noopener">http://www.jsmackin.co.uk/</a><br><a href="https://www.urdhva-tech.com/blogs" target="_blank" rel="noopener">https://www.urdhva-tech.com/blogs</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Setup-SuiteCRM-7-11-18&quot;&gt;&lt;a href=&quot;#Setup-SuiteCRM-7-11-18&quot; class=&quot;headerlink&quot; title=&quot;Setup SuiteCRM 7.11.18&quot;&gt;&lt;/a&gt;Setup SuiteCRM 7.11.
+      
+    
+    </summary>
+    
+    
+    
+      <category term="crm" scheme="http://yoursite.com/tags/crm/"/>
+    
+      <category term="suitecrm" scheme="http://yoursite.com/tags/suitecrm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>進階使用 Google 搜尋</title>
+    <link href="http://yoursite.com/2019/08/11/tips-of-using-google/"/>
+    <id>http://yoursite.com/2019/08/11/tips-of-using-google/</id>
+    <published>2019-08-11T13:49:24.000Z</published>
+    <updated>2021-03-09T06:02:49.085Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="TLDR"><a href="#TLDR" class="headerlink" title="TLDR;"></a>TLDR;</h2><p>在互聯網開發上，如果要快速的幫助自己搜尋到有用的資料， 大部分的人第一個想到的就是透過瀏覽器，尤其是 Google， 不過簡單的用Google查詢關鍵字誰都會，但是在進階一點的使用方法，可能就不會了， 然而這些進階的方法其實能幫助我們更準確地找到我們想要的資料，以下就是可能會使用到的進階方法的範例。</p><a id="more"></a><p>範例一，以現在熱門的區塊鏈跟比特幣的議題，當你用 Google 搜尋的時候，往往文章的內容都是成對出現的，但是，如果我們現在要搜索的文章，要求是標題裡面必須出現區塊練這個名詞，但是必須沒有比特幣這個詞，那要怎麼搜索呢?</p><blockquote><p>intitle:blockchain -bitcoin</p></blockquote><p>範例二，另外有些更進階的功能，當你做行業研究的時候也是可以用的，以亞馬遜為例子，他公司有很多的業務，而且他很多業務都會取一個二級域名，比如說它的雲服務是叫做aws.amazon.com，但如如果我們想要了解亞馬遜有哪些服務的話，可以查一下亞馬遜有哪些不以www開頭的站點，亞馬遜的主要是<a href="http://www.amazon.com" target="_blank" rel="noopener">www.amazon.com</a></p><blockquote><p>site:amazon.com -inurl:www</p></blockquote><p>範例三，亞馬遜有哪些不以.com作結尾的網站</p><blockquote><p>site:amazon.* -site:amazon.com</p></blockquote><p>範例四，搜索特斯拉網站上所有的PDF文黨</p><blockquote><p>site:tesla.com fitetype:pdf</p></blockquote><p>所以如果把搜尋引擎的技巧學起來的話，這樣找到正確的信息的效率就會高很多，<br>以下是整理過後的 Google 引擎進階搜尋技巧</p><h2 id="Basic-Examples"><a href="#Basic-Examples" class="headerlink" title="Basic Examples"></a>Basic Examples</h2><table><thead><tr><th>This Search</th><th>Finds Pages Containing…</th></tr></thead><tbody><tr><td>biking Italy</td><td>the words biking and Italy</td></tr><tr><td>recycle steel OR iron</td><td>information on recycling steel or recycling iron</td></tr><tr><td>“I have a dream”</td><td>the exact phrase I have a dream</td></tr><tr><td>salsa –dance</td><td>the word salsa but <em>NOT</em> the word dance</td></tr><tr><td>Louis “I” France</td><td>information about Louis the First (I), weeding out other kings of France</td></tr><tr><td>castle ~glossary</td><td>glossaries about castles, as well as dictonaries, lists of terms, terminology, etc.</td></tr><tr><td>fortune-telling</td><td>all forms of the term, whether spelled as a single word, a phrase, or hyphenated</td></tr><tr><td>define:imbroglio</td><td>definitions of the word imbroglio from the Web</td></tr></tbody></table><h2 id="Calculator"><a href="#Calculator" class="headerlink" title="Calculator"></a>Calculator</h2><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results)</th></tr></thead><tbody><tr><td>+ – * /</td><td>basic arithmetic</td><td>12 + 34 - 56 * 7 / 8</td></tr><tr><td>% of</td><td>percentage of</td><td>45% of 39</td></tr><tr><td>^ or **</td><td>raise to a power</td><td>2^5 or 2**5</td></tr><tr><td>old units in new units</td><td>convert units</td><td>300 Euros in USD, 130 lbs in kg, or 31 in hex</td></tr></tbody></table><h3 id="Restrict-Search"><a href="#Restrict-Search" class="headerlink" title="Restrict Search"></a>Restrict Search</h3><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results)</th></tr></thead><tbody><tr><td>city1<br>city2</td><td>Book flights.</td><td>sfo bos <br> (Book flights from San Francisco (SFO) to Boston (BOS).)</td></tr><tr><td>site:</td><td>Search only one website or domain.</td><td>Halloween site:<a href="http://www.census.gov" target="_blank" rel="noopener">www.census.gov</a><br> (Search for information on Halloween gathered by the US Census Bureau.)</td></tr><tr><td>[#]..[#]</td><td>Search within a range of numbers.</td><td>Dave Barry pirate 2002..2006 <br>(Search for Dave Barry articles mentioning pirates written in these years.)</td></tr><tr><td>filetype:<br> (or ext:)</td><td>Find documents of the specified type.</td><td>Form 1098-T IRS filetype:pdf <br>(Find the US tax form 1098-T in PDF format.)</td></tr><tr><td>link:</td><td>Find linked pages, i.e., show pages that point to the URL.</td><td>link:warriorlibrarian.com <br>(Find pages that link to Warrior Librarian’s website.)</td></tr></tbody></table><h2 id="Specialized-Information-Queries"><a href="#Specialized-Information-Queries" class="headerlink" title="Specialized Information Queries"></a>Specialized Information Queries</h2><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results)</th></tr></thead><tbody><tr><td>book<br> (or books)</td><td>Search full-text of books.</td><td>book Ender’s Game<br> (Show book-related information.  Note: No colon needed after book.)</td></tr><tr><td>define, what is, what are</td><td>Show a definition for a word or phrase.</td><td>define monopsony, what is podcast<br> (Show a definition for the words monopsony and podcast.  Note: No colon after define, what is, or what are.)</td></tr><tr><td>define:</td><td>Provide definitions for words, phrases, and acronyms from the Web.</td><td>define:kerning<br> (Find definitions for kerning from the Web.)</td></tr><tr><td>movie:</td><td>Find reviews and showtimes.</td><td>movie: traffic<br> (Search for information about this movie, including reviews, showtimes, etc.)</td></tr><tr><td>stocks:</td><td>Given ticker symbols, show stock information</td><td>stocks: goog<br> (Find Google’s current stock price.)</td></tr><tr><td>weather</td><td>Given a location (US zip code or city), show the weather</td><td>weather Seattle WA, weather 81612<br> (Show the current weather and forecast.  Note: No colon after weather.)</td></tr></tbody></table><h3 id="Alternative-Query-Types"><a href="#Alternative-Query-Types" class="headerlink" title="Alternative Query Types"></a>Alternative Query Types</h3><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results) cache:<a href="http://www.irs.gov" target="_blank" rel="noopener">www.irs.gov</a></th></tr></thead><tbody><tr><td>cache:</td><td>Display Google’s cached version of a web page.</td><td>(Show Google’s cached version of the US Internal Revenue Service home page.)</td></tr><tr><td>info:<br> (or id:)</td><td>Find info about a page.</td><td>info:<a href="http://www.theonion.com" target="_blank" rel="noopener">www.theonion.com</a><br> (Find information about The Onion website.)</td></tr><tr><td>related:</td><td>List web pages that are similar or related to the URL.</td><td>related:<a href="http://www.healthfinder.gov" target="_blank" rel="noopener">www.healthfinder.gov</a><br> (Find websites related to the Healthfinder website.)</td></tr></tbody></table><h3 id="Restrict-Search-to-Sites-where-Query-Words-Appear"><a href="#Restrict-Search-to-Sites-where-Query-Words-Appear" class="headerlink" title="Restrict Search to Sites where Query Words Appear"></a>Restrict Search to Sites where Query Words Appear</h3><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results)</th></tr></thead><tbody><tr><td>allinanchor:</td><td>All query words must appear in anchor text of links to the page.</td><td>allinanchor:useful parenting sites<br> (Search for pages that are called useful parenting sites by others.)</td></tr><tr><td>inanchor:</td><td>Terms must appear in anchor text of links to the page.</td><td>restaurants Portland inanchor:kid-friendly<br> (Search for pages on Portland restaurants for which links to the page say they are “kid friendly.”)</td></tr><tr><td>allintext:</td><td>All query words must appear in the text of the page.</td><td>allintext:ingredients cilantro chicken lime (Search for recipes with these three ingredients.)</td></tr><tr><td>intext:</td><td>The terms must appear in the text of the page.</td><td>Dan Shugar intext:Powerlight<br> (Find pages mentioning Dan Shugar where his company, Powerlight, is included in the text of the page, i.e., less likely to be from the corporate website.)</td></tr><tr><td>allintitle:</td><td>All query words must appear in the title of the page.</td><td>allintitle: Google Advanced Operators<br> (Search for pages with titles containing “Google,” “Advanced,”, and “Operators”.)</td></tr><tr><td>intitle:</td><td>The terms must appear in the title of the page.</td><td>movies comedy intitle:top ten<br> (Search for pages with the words movie and comedy that include top ten in the title of the page.)</td></tr><tr><td>allinurl:</td><td>All query words must appear in the URL.</td><td>allinurl:pez faq<br> (Search for pages containing the words pez &amp; faq in the URL.)</td></tr><tr><td>inurl:</td><td>The terms must appear in the URL of the page.</td><td>pharmaceutical inurl:investor<br> (Search for pages in which the URL contains the word investor.)</td></tr></tbody></table><h3 id="Restrict-Search-to-Google-Groups"><a href="#Restrict-Search-to-Google-Groups" class="headerlink" title="Restrict Search to Google Groups"></a>Restrict Search to Google Groups</h3><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results)</th></tr></thead><tbody><tr><td>author:</td><td>Find Groups messages from the specified author.</td><td>flying author:Hamish author:Reid<br> (Search for Hamish Reid’s articles on flying.)</td></tr><tr><td>group:</td><td>Find Groups messages from the specified newsgroup.</td><td>ivan doig group:rec.arts.books<br> (Search for postings about Ivan Doig in the group rec.arts.books.)</td></tr><tr><td>insubject:</td><td>Find Groups messages containing crazy quilts in the subject.</td><td>insubject:”crazy quilts”<br> (Find articles containing crazy quilts in the subject line.)</td></tr></tbody></table><h3 id="Restrict-Search-to-Google-News"><a href="#Restrict-Search-to-Google-News" class="headerlink" title="Restrict Search to Google News"></a>Restrict Search to Google News</h3><table><thead><tr><th>Operators</th><th>Meaning</th><th>Type Into Search Box (&amp; Results)</th></tr></thead><tbody><tr><td>location:</td><td>Find News articles from sources located in the specified location.</td><td>queen location:uk<br> (Find British news articles on the Queen.)</td></tr><tr><td>source:</td><td>Find News articles from specified sources.</td><td>peace source:ha_aretz<br> (Show articles on peace from the Israeli newspaper Ha’aretz.)</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;TLDR&quot;&gt;&lt;a href=&quot;#TLDR&quot; class=&quot;headerlink&quot; title=&quot;TLDR;&quot;&gt;&lt;/a&gt;TLDR;&lt;/h2&gt;&lt;p&gt;在互聯網開發上，如果要快速的幫助自己搜尋到有用的資料， 大部分的人第一個想到的就是透過瀏覽器，尤其是 Google， 不過簡單的用Google查詢關鍵字誰都會，但是在進階一點的使用方法，可能就不會了， 然而這些進階的方法其實能幫助我們更準確地找到我們想要的資料，以下就是可能會使用到的進階方法的範例。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="seo" scheme="http://yoursite.com/tags/seo/"/>
+    
+      <category term="google" scheme="http://yoursite.com/tags/google/"/>
+    
+      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 Windows 上面安裝 Valet</title>
+    <link href="http://yoursite.com/2019/07/20/valet-on-windows/"/>
+    <id>http://yoursite.com/2019/07/20/valet-on-windows/</id>
+    <published>2019-07-20T13:43:41.000Z</published>
+    <updated>2021-03-09T06:02:49.085Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>過去使用 Homestead 開發 Laravel 專案總是驚嘆 Laravel 社群提供的自動化開發環境建置非常的強大，讓 php 開發人員不太需要花很多的時間去學習，不過冗長的啟動過程，有時候只是想快速的測試一些新的東西時，都會感覺一種很窒息的感覺，覺得很笨重，只是想快速了解一些語法開發方式，結果，整個vagrant up 的部署過程，讓人覺得像是揹著老太太走路，又臭又長。<br>這時候想到 Laravel 官網有介紹到 Valet 基於 mac 的開發</p><h2 id="事前準備工作"><a href="#事前準備工作" class="headerlink" title="事前準備工作"></a>事前準備工作</h2><h3 id="以-chocolatey-安裝"><a href="#以-chocolatey-安裝" class="headerlink" title="以 chocolatey 安裝"></a>以 chocolatey 安裝</h3><p>windows 的巧克力(套件管理工具)，像是 Ubuntu 的 apt 及 Mac 的 brew，讓習慣用指令安裝的人，有一種吃巧克力的幸福感，可以省去滑鼠左鍵瘋狂點擊下一步<br><a href="https://chocolatey.org/" target="_blank" rel="noopener">https://chocolatey.org</a></p><ul><li>安裝 chocolatey 非常簡單，以 管理員身分執行 powershell，執行以下指令安裝 chocolatey</li></ul><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> Bypass -Scope <span class="keyword">Process</span> -Force; iex ((<span class="built_in">New-Object</span> System.Net.WebClient).DownloadString(<span class="string">'https://chocolatey.org/install.ps1'</span>))</span><br></pre></td></tr></table></figure><p>chocolatey 安裝完成後，檢查是否安裝完成</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 檢查是否安裝完成</span></span><br><span class="line">choco -v</span><br></pre></td></tr></table></figure><p>確認安裝完成之後，開始安裝基本環境</p><ul><li>首先安裝 php、mysql</li></ul><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安裝 php</span></span><br><span class="line">choco install php -y</span><br><span class="line"><span class="comment"># 安裝 mysql</span></span><br><span class="line">choco install mysql -y</span><br></pre></td></tr></table></figure><p>確認php 環境安裝完成之後，安裝composer，前往<a href="https://getcomposer.org/download/" target="_blank" rel="noopener">composer</a>下載頁面下載.exe執行檔安裝</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 檢查 php 是否安裝</span></span><br><span class="line">php -v</span><br><span class="line"><span class="comment"># 檢查 mysql 是否安裝</span></span><br><span class="line">mysql -v</span><br></pre></td></tr></table></figure><h2 id="安裝-Valet"><a href="#安裝-Valet" class="headerlink" title="安裝 Valet"></a>安裝 Valet</h2><p>Windows 安裝</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer global require cretueusebiu/valet-windows</span><br></pre></td></tr></table></figure><p>Windows：用管理员身份运行以下命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">valet install</span><br></pre></td></tr></table></figure><p>Windows 10 用戶必須手動調整 DNS 服務器，在網卡的IPv4和IPv6設置裡，分別填入127.0.0.1和:: 1作為DNS服務器地址。<br><a href="http://mayakron.altervista.org/wikibase/show.php?id=AcrylicWindows10Configuration" target="_blank" rel="noopener">參考網址</a></p><h2 id="配置-Valet"><a href="#配置-Valet" class="headerlink" title="配置 Valet"></a>配置 Valet</h2><p>一切準備就緒之後，將目錄切換到project底下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 切換到先對應的目錄底下</span><br><span class="line">cd project</span><br><span class="line"># 建立 index.html</span><br><span class="line">echo &apos;hello world&apos; &gt;&gt; index.html</span><br><span class="line"># 建立連結</span><br><span class="line">valet link project</span><br></pre></td></tr></table></figure><h2 id="參考資源"><a href="#參考資源" class="headerlink" title="參考資源"></a>參考資源</h2><p><a href="https://kazumi.blog/how-to-use-valet-to-build-laravel-testing-env-easily-cn.html" target="_blank" rel="noopener">https://kazumi.blog/how-to-use-valet-to-build-laravel-testing-env-easily-cn.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;過去使用 Homestead 開發 Laravel 專案總是驚嘆 Laravel 社群提供的自動化開發環境建置非常的強大，讓 php 開發人
+      
+    
+    </summary>
+    
+    
+      <category term="Development" scheme="http://yoursite.com/categories/Development/"/>
+    
+    
+      <category term="windows" scheme="http://yoursite.com/tags/windows/"/>
+    
+      <category term="php" scheme="http://yoursite.com/tags/php/"/>
+    
+      <category term="laravel" scheme="http://yoursite.com/tags/laravel/"/>
+    
+      <category term="valet" scheme="http://yoursite.com/tags/valet/"/>
+    
+      <category term="chocolatey" scheme="http://yoursite.com/tags/chocolatey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo setup from begining</title>
+    <link href="http://yoursite.com/2019/06/05/hexo-setup-from-begining/"/>
+    <id>http://yoursite.com/2019/06/05/hexo-setup-from-begining/</id>
+    <published>2019-06-05T16:00:31.000Z</published>
+    <updated>2020-06-06T16:00:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言:"></a>前言:</h1><p>隨著經歷的事情越來越多，漸漸地發現要把腦袋中的一些東西，交由外部的工具來幫忙管理，因為人也年長了，不像是年輕的時候需要做的事情比較簡單單純，步入社會後，繁雜的事物全部都印入腦袋，碎片化的資訊，讓一件事情不再是那麼有條理，畢竟，人的腦袋的容量是有限的，善用工具才能幫助自己更快速的學習消化儲存知識。至於，blog 為什麼要選擇 hexo，就只是單純的，想要一個很簡單，很快速能記錄整理自己想法的地方，hexo 就是一個能快速達成目標的工具，hexo 的生態也不錯，該有的外掛都不少於 wordpress，以文章來說足夠了。</p><a id="more"></a><h1 id="需求"><a href="#需求" class="headerlink" title="需求:"></a>需求:</h1><ul><li><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">npm</a> </li><li><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a></li><li>任一編輯軟體</li></ul><h1 id="著手進行"><a href="#著手進行" class="headerlink" title="著手進行"></a>著手進行</h1><p>官方文檔上面已經有不錯的建立步驟，不過這篇文章還是希望能幫助自己整理一下 hexo 有的功能</p><h2 id="安裝-hexo-指令"><a href="#安裝-hexo-指令" class="headerlink" title="安裝 hexo 指令"></a>安裝 hexo 指令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><p>切到你想要的目錄后，初始化博客的環境只需要以下幾行指令（假設創建的資料夾叫做blog）</p><h2 id="建立-blog-及-預覽畫面"><a href="#建立-blog-及-預覽畫面" class="headerlink" title="建立 blog 及 預覽畫面"></a>建立 blog 及 預覽畫面</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd $&#123;blog_directory&#125;</span><br><span class="line">hexo init blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>用瀏覽器打開<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p><h2 id="blog-結構"><a href="#blog-結構" class="headerlink" title="blog 結構"></a>blog 結構</h2><p>在 hexo 的目錄底下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure><p>_config.yml：網站 配置 檔案，可以在此配置大部分的設定。<br>package.json：套件版本控制<br>scaffolds：鷹架 資料夾。建立新文章時，會根據 scaffold 來建立檔案。<br>source：原始檔案資料夾是放置內容的地方。<br>themes：主題 資料夾。Hexo 會根據主題來產生靜態檔案。</p><h1 id="開始寫文章"><a href="#開始寫文章" class="headerlink" title="開始寫文章"></a>開始寫文章</h1><p>開始使用 hexo 寫 blog，只需要以下三個指令就能完成</p><h2 id="發布文章"><a href="#發布文章" class="headerlink" title="發布文章"></a>發布文章</h2><p>使用這個指令產生的文章會放在 _posts 目錄底下，放在這邊的文章會直接發佈出去</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br></pre></td></tr></table></figure><h2 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h2><p>使用這個指令產生的文章會放在 _drafts 目錄底下，放在這邊的文章需要使用 publish 或者手動移到 _post 底下才會發佈出去</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft &lt;title&gt;</span><br></pre></td></tr></table></figure><h2 id="發布草稿"><a href="#發布草稿" class="headerlink" title="發布草稿"></a>發布草稿</h2><p>用來將放在 _drafts 目錄底下的草稿發佈</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish &lt;title&gt;</span><br></pre></td></tr></table></figure><h1 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h1><p>基本上使用及預覽 hexo 就完成了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言:&quot;&gt;&lt;/a&gt;前言:&lt;/h1&gt;&lt;p&gt;隨著經歷的事情越來越多，漸漸地發現要把腦袋中的一些東西，交由外部的工具來幫忙管理，因為人也年長了，不像是年輕的時候需要做的事情比較簡單單純，步入社會後，繁雜的事物全部都印入腦袋，碎片化的資訊，讓一件事情不再是那麼有條理，畢竟，人的腦袋的容量是有限的，善用工具才能幫助自己更快速的學習消化儲存知識。至於，blog 為什麼要選擇 hexo，就只是單純的，想要一個很簡單，很快速能記錄整理自己想法的地方，hexo 就是一個能快速達成目標的工具，hexo 的生態也不錯，該有的外掛都不少於 wordpress，以文章來說足夠了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="windows" scheme="http://yoursite.com/tags/windows/"/>
+    
+  </entry>
+  
+</feed>
